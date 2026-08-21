@@ -50,35 +50,6 @@ Token IDs:
 
 The generated token IDs can then be passed to a custom neural-network language model.
 
-## 📁 Project Structure
-
-```text
-word-tokenizer/
-│
-├── tokenizer.py
-├── vocab.json
-├── dataset.txt
-├── test_tokenizer.py
-├── requirements.txt
-└── README.md
-```
-
-## ⚙️ Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/word-tokenizer.git
-cd word-tokenizer
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-## 🔧 Usage
 
 ```python
 from tokenizer import WordTokenizer
