@@ -50,27 +50,6 @@ Token IDs:
 
 The generated token IDs can then be passed to a custom neural-network language model.
 
-
-```python
-from tokenizer import WordTokenizer
-
-tokenizer = WordTokenizer()
-
-text = "Hello, welcome to my AI project."
-
-tokens = tokenizer.encode(text)
-
-print(tokens)
-```
-
-To decode token IDs:
-
-```python
-text = tokenizer.decode(tokens)
-
-print(text)
-```
-
 ## 📚 Vocabulary
 
 The tokenizer maintains a vocabulary that maps words to unique numerical IDs.
@@ -142,11 +121,7 @@ It can be used as the preprocessing layer for a custom AI assistant or language 
 * [ ] Padding and attention-mask generation
 * [ ] Hugging Face tokenizer compatibility
 * [ ] Integration with custom GPT architecture
-
-## 📄 License
-
-This project is open-source and available under the MIT License.
-
+---
 ## 👨‍💻 Author
 
 **Rupesh Tandan**
